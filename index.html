@@ -13,6 +13,20 @@
             <button id="generateBtn">Generate Joke</button>
         </div>
     </div>
+    <div class="form">
+      <form id="addJokeForm">
+        <label for="categoryInput">Category:</label>
+        <input type="text" id="categoryInput" name="categoryInput">
+        
+        <label for="setupInput">Setup:</label>
+        <input type="text" id="setupInput" name="setupInput">
+        
+        <label for="punchlineInput">Punchline:</label>
+        <input type="text" id="punchlineInput" name="punchlineInput">
+        
+        <button type="submit">Add Joke</button>
+      </form>
+    </div>
     <div class="area">
       <ul class="circles">
         <li></li>
@@ -27,6 +41,6 @@
         <li></li>
       </ul>  
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
